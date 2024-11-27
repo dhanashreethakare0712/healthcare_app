@@ -65,28 +65,9 @@ class SplashScreenState extends State<SplashScreen> {
         child:  Container(
           height: 400,
           child: Image.asset('assets/splash.jpeg',
-            //  height: MediaQuery.of(context).size.height,
-            //  width: MediaQuery.of(context).size.width,
             fit: BoxFit.fill,
-            //  ),
           ),
         ),
-        // child: Row(
-        //   children:[
-        //   //  SizedBox(width: 8),
-        //     Expanded(
-        //       child: Column(
-        //         crossAxisAlignment: CrossAxisAlignment.center,
-        //         children: [
-        //           Container(
-        //             child: Text(GlobalVariable.splashAdsErpName,textAlign: TextAlign.start,style: TextStyle(fontSize: 20, color: Colors.blue[900]),
-        //             ),
-        //           ),
-        //         ],
-        //       ),
-        //     )
-        //   ],
-        // ),
       ),
     );
   }
